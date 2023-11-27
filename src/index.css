@@ -1,0 +1,103 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+  width: 99vw;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c {
+  color: antiquewhite;
+}
+.card {
+  width: 360px;
+  height: fit-content;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0.3em 0.3em 1em rgba(222, 243, 250, 1);
+}
+
+.date-section {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #59d0fd;
+  padding: 30px 30px 30px;
+}
+.date-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+h2 {
+  padding: 0%;
+  margin: 0%;
+  color: #ffffff;
+}
+.padding {
+  padding: 10px 10px 10px 20px;
+}
+.task-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #adadad;
+  transition: 0.1s ease;
+}
+.task-card:hover {
+  border-left: 5px solid #59d0fd;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.task-color {
+  color: #adadad;
+}
+h5 {
+  padding: 0px;
+  margin: 0px;
+}
+.scroll {
+  height: 450px;
+  scroll-behavior: auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.icons-div {
+  position: relative;
+}
+
+.pos {
+  position: absolute;
+  display: none;
+}
+
+.icon-bg {
+  background-color: #ebebeb;
+  border-radius: 25px;
+  padding: 8px;
+}
+.check-pos {
+  top: -25px;
+}
+.edit-pos {
+  left: -30px;
+  top: 16px;
+}
+
+.cross-pos {
+  left: 22px;
+  bottom: 22px;
+}
+.trash-pos {
+  top: 69px;
+}
